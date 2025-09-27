@@ -1,16 +1,39 @@
-# React + Vite
+# 🎭 Avatar Generator App  
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern React application to generate **unlimited avatars** using [Dicebear Avatars API](https://www.dicebear.com) and [Random User API](https://randomuser.me).  
+You can **change avatars**, **download them**, or **copy their URLs** with a single click.  
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🌐 Live Demo  
+🔗 [Avatar Generator App](https://avatar-generator-react.netlify.app/)  
 
-## React Compiler
+---
 
-The React Compiler is currently not compatible with SWC. See [this issue](https://github.com/vitejs/vite-plugin-react/issues/428) for tracking the progress.
+## ✨ Features  
+- 🎨 Choose from multiple avatar styles:
+  - Illustration  
+  - Cartoon  
+  - Sketchy  
+  - Robots  
+  - Pixel Art  
+  - Male / Female (RandomUser API)  
+- 🔄 Generate random avatars instantly.  
+- ⬇️ Download avatars as `.jpg`.  
+- 📋 Copy avatar URL to clipboard with toast notification.  
+- ⚡ Smooth animations with **Animate.css**.  
+- 🖼️ Beautiful UI with **TailwindCSS**.  
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Tech Stack  
+- **React 18 + Vite**  
+- **TailwindCSS** for styling  
+- **Remix Icon** for icons  
+- **Animate.css** for animations  
+- **React Toastify** for notifications  
+- **Dicebear API** & **RandomUser API** for avatars  
+
+---
+
+## 📂 Folder Structure  
